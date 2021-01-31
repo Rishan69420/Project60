@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: white;
+  text-align: center;
+  font-family: Arial;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+
+#hobby {
+  background-color: orange;
+}
+
+#work {
+  background-color: blanchedalmond;
+}
+
+#inspiration {
+  background-color: lawngreen;
+}
+
+#hobby, #work, #inspiration, #contact {
+  margin-top: -20pt;
+}
+
+#about {
+  background: linear-gradient(#8CD8FF 0%, #59A5FF 100%) no-repeat;
+}
+
+h1 {
+  font-size: 200%;
+  text-shadow: 1pt 1pt black;
+}
+
+#hobbyT {
+  font-size: 120%;
+  text-shadow: 1.5pt 1.5pt 1pt black;
+  font-family: "Abel";
+}
+
+.line {
+  background-color: white;
+  width: 350pt;
+  height: 5pt;
+  margin-left: 295pt;
+}
+
+#reasonHobby {
+  width: 60%;
+  text-shadow: 0.6pt 0.6pt black;
+  margin-left: 190pt;
+}
+
+#aboutText {
+  width: 45%;
+  text-shadow: 0.6pt 0.6pt black;
+  margin-left: 250pt;
+}
+
+.link {
+  display: inline;
+  text-shadow: 1pt 1pt black, 1pt -1pt black, -1pt -1pt black, -1pt 1pt black;
+  padding: 6pt 9pt;
+  font-size: 120%;
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: white;
+  animation-name: c;
+  animation-duration: 0.45s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+@keyframes c {
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}
+
+#links {
+  list-style-type: none;
+  margin-left: 445pt;
+  position: fixed;
+}
+
+#links li a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  transition: transform .2s;
+}
+
+img:hover {
+  transform: scale(0.9);
+}
